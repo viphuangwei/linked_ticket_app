@@ -62,10 +62,10 @@
   "ticket": {
     "id": "ID",
     "subject": "Assunto:",
-    "status": "Status",
-    "type": "Tipo",
+    "status": "Status:",
+    "type": "Tipo:",
     "assignee": "Atribuído para:",
-    "group": "Grupo",
+    "group": "Grupo:",
     "values": {
       "status": {
         "new": "Novo",

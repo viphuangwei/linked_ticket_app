@@ -60,12 +60,12 @@
     "loading": "Se trimite..."
   },
   "ticket": {
-    "id": "Identificator",
+    "id": "IDENTIFICATOR:",
     "subject": "Subiect:",
-    "status": "Stare",
-    "type": "Tip",
+    "status": "Stare:",
+    "type": "Tip:",
     "assignee": "Responsabil desemnat:",
-    "group": "Grup",
+    "group": "Grup:",
     "values": {
       "status": {
         "new": "Nou",

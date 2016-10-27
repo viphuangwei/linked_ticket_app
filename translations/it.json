@@ -60,12 +60,12 @@
     "loading": "Invio in corso..."
   },
   "ticket": {
-    "id": "ID",
+    "id": "ID:",
     "subject": "Oggetto:",
-    "status": "Stato",
-    "type": "Tipo",
+    "status": "Stato:",
+    "type": "Tipo:",
     "assignee": "Assegnatario:",
-    "group": "Gruppo",
+    "group": "Gruppo:",
     "values": {
       "status": {
         "new": "Nuovo",

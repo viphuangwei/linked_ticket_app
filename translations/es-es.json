@@ -60,12 +60,12 @@
     "loading": "Enviando..."
   },
   "ticket": {
-    "id": "ID",
+    "id": "ID:",
     "subject": "Asunto:",
-    "status": "Estado",
-    "type": "Tipo",
+    "status": "Estado:",
+    "type": "Tipo:",
     "assignee": "Agente asignado:",
-    "group": "Grupo",
+    "group": "Grupo:",
     "values": {
       "status": {
         "new": "Nuevo",

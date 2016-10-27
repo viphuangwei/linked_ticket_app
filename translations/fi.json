@@ -60,12 +60,12 @@
     "loading": "Lähettää..."
   },
   "ticket": {
-    "id": "Tunnus",
+    "id": "TUNNUS:",
     "subject": "Aihe:",
-    "status": "Tila",
-    "type": "Tyyppi",
+    "status": "Tila:",
+    "type": "Tyyppi:",
     "assignee": "Käsittelijä:",
-    "group": "Ryhmä",
+    "group": "Ryhmä:",
     "values": {
       "status": {
         "new": "Uusi",

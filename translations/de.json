@@ -8,7 +8,7 @@
         "helpText": "Geben Sie hier die ID eines angepassten Textfelds ein, in dem die Referenzdaten für die verknüpften Tickets gespeichert werden sollen. Beispiel: 2240041"
       },
       "child_tag": {
-        "label": "Tag für untergeordnetes Ticket",
+        "label": "Stichwort für untergeordnetes Ticket",
         "helpText": "Dieses Stichwort wird zum untergeordneten Ticket hinzugefügt. Beispiel: untergeordnetes_Ticket"
       }
     }
@@ -37,13 +37,13 @@
       "label": "Anfragender:",
       "current_user": "ich",
       "ticket_requester": "Ticket-Anfragender",
-      "custom": "andere"
+      "custom": "sonstige"
     },
     "assignee": {
       "label": "Mitarbeiter:",
       "current_user": "ich",
       "ticket_assignee": "Mitarbeiter für Ticket",
-      "custom": "andere",
+      "custom": "sonstige",
       "group_label": "Mitarbeitergruppe",
       "name_label": "Mitarbeitername"
     },
@@ -60,12 +60,12 @@
     "loading": "Einreichen..."
   },
   "ticket": {
-    "id": "ID",
+    "id": "ID:",
     "subject": "Betreff:",
-    "status": "Status",
-    "type": "Typ",
+    "status": "Status:",
+    "type": "Typ:",
     "assignee": "Mitarbeiter:",
-    "group": "Gruppe",
+    "group": "Gruppe:",
     "values": {
       "status": {
         "new": "Neu",

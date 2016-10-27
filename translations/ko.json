@@ -60,12 +60,12 @@
     "loading": "제출 중..."
   },
   "ticket": {
-    "id": "아이디",
+    "id": "ID:",
     "subject": "제목:",
-    "status": "상태",
+    "status": "상태:",
     "type": "유형",
     "assignee": "담당자:",
-    "group": "그룹",
+    "group": "그룹:",
     "values": {
       "status": {
         "new": "신규",

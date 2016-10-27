@@ -60,12 +60,12 @@
     "loading": "Sender inn..."
   },
   "ticket": {
-    "id": "ID",
+    "id": "ID:",
     "subject": "Emne:",
-    "status": "Status",
-    "type": "Type",
-    "assignee": "Saksansvarlig:",
-    "group": "Gruppe",
+    "status": "Status:",
+    "type": "Type:",
+    "assignee": "Saksansvar.",
+    "group": "Gruppe:",
     "values": {
       "status": {
         "new": "Ny",

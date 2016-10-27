@@ -60,12 +60,12 @@
     "loading": "Gönderiliyor..."
   },
   "ticket": {
-    "id": "No",
+    "id": "NO:",
     "subject": "Konu:",
-    "status": "Durum",
-    "type": "Tür",
+    "status": "Durum:",
+    "type": "Tür:",
     "assignee": "Atanan:",
-    "group": "Grup",
+    "group": "Grup:",
     "values": {
       "status": {
         "new": "Yeni",

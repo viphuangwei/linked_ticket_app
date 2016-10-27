@@ -1,90 +1,90 @@
 {
   "app": {
-    "description": "Create and link a ticket from an existing one",
-    "name": "Linked Ticket",
+    "description": "Създаване на казус от съществуващ казус и свързване на двата казуса",
+    "name": "Свързан казус",
     "parameters": {
       "ancestry_field": {
-        "label": "Reference Field",
-        "helpText": "Place a custom text field ID here to store the Linked Ticket reference data. Example : 2240041"
+        "label": "Справочно поле",
+        "helpText": "Добавете идентификатор на персонализираното текстово поле, който ще съхранява справочни данни за свързания казус. Пример: 2240041"
       },
       "child_tag": {
-        "label": "Child Tag",
-        "helpText": "This tag will be added to the created child ticket. Example : child_ticket"
+        "label": "Дъщерен етикет",
+        "helpText": "Този етикет ще бъде добавен към създадения дъщерен казус. Пример: child_ticket"
       }
     }
   },
-  "ajax_failure": "An error occurred. Please try reloading the app.",
-  "ancestry_field_missing": "<strong>Linked Ticket App:</strong> Did you follow the set up instructions and set up a custom field?",
-  "has_parent": "This ticket has a parent ticket.",
-  "has_child": "This ticket has a child ticket.",
+  "ajax_failure": "Възникна грешка. Презаредете приложението.",
+  "ancestry_field_missing": "<strong>Приложение на свързания казус:</strong> Следвахте ли инструкции за инсталиране и създадохте ли персонализирано поле?",
+  "has_parent": "Този казус има родителски казус.",
+  "has_child": "Този казус има дъщерен казус.",
   "form": {
     "subject": {
-      "label": "Subject:"
+      "label": "Тема:"
     },
     "description": {
-      "label": "Description:"
+      "label": "Описание:"
     },
     "requester_email": {
-      "label": "Requester Email"
+      "label": "Имейл адрес на заявителя"
     },
     "requester_name": {
-      "label": "Requester Name (For new requesters only)"
+      "label": "Име на заявителя (само за нови заявители)"
     },
     "group": {
-      "label": "Group"
+      "label": "Група"
     },
     "requester": {
-      "label": "Requester:",
-      "current_user": "me",
-      "ticket_requester": "ticket requester",
-      "custom": "other"
+      "label": "Заявител:",
+      "current_user": "аз",
+      "ticket_requester": "заявител на казуса",
+      "custom": "други"
     },
     "assignee": {
-      "label": "Assignee:",
-      "current_user": "me",
-      "ticket_assignee": "ticket assignee",
-      "custom": "other",
-      "group_label": "Assignee group",
-      "name_label": "Assignee name"
+      "label": "Изпълнител:",
+      "current_user": "аз",
+      "ticket_assignee": "изпълнител на казуса",
+      "custom": "други",
+      "group_label": "Група изпълнители",
+      "name_label": "Име на изпълнител"
     },
     "copy_description": {
-      "label": "Copy current ticket description"
+      "label": "Копиране на описанието на текущия казус"
     },
     "ccs": {
-      "label": "CCs:"
+      "label": "Копие:"
     },
     "tags": {
-      "label": "Tags:"
+      "label": "Етикети:"
     },
-    "submit": "Create Ticket",
-    "loading": "Submitting..."
+    "submit": "Създаване на казус",
+    "loading": "Изпраща се..."
   },
   "ticket": {
-    "id": "ID",
-    "subject": "Subject:",
-    "status": "Status",
-    "type": "Type",
-    "assignee": "Assignee:",
-    "group": "Group",
+    "id": "ID:",
+    "subject": "Тема:",
+    "status": "Статус:",
+    "type": "Тип:",
+    "assignee": "Изпълнител:",
+    "group": "Група",
     "values": {
       "status": {
-        "new": "New",
-        "open": "Open",
-        "pending": "Pending",
-        "hold": "Hold",
-        "solved": "Solved",
-        "closed": "Closed"
+        "new": "Нов",
+        "open": "Отворен",
+        "pending": "Чакащ",
+        "hold": "В изчакване",
+        "solved": "Изпълнен",
+        "closed": "Закрит"
       },
       "type": {
-        "problem": "Problem",
-        "incident": "Incident",
-        "question": "Question",
-        "task": "Task"
+        "problem": "Проблем",
+        "incident": "Инцидент",
+        "question": "Въпрос",
+        "task": "Задача"
       }
     }
   },
-  "delimiter": "Original Description",
-  "forbidden": "You are not authorized to view this linked ticket.",
-  "create_ticket": "Create a ticket",
-  "closed_warn": "The parent ticket is closed and cannot be modified. Only the child ticket will continue to contain a reference."
+  "delimiter": "Първоначално описание",
+  "forbidden": "Нямате разрешение за преглед на този свързан казус.",
+  "create_ticket": "Създаване на казус",
+  "closed_warn": "Родителският казус е закрит и не може да бъде променян. Само дъщерният казус ще продължи да съдържа препратка."
 }

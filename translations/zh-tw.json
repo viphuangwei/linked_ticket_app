@@ -60,12 +60,12 @@
     "loading": "提交中……"
   },
   "ticket": {
-    "id": "ID",
+    "id": "ID：",
     "subject": "標題：",
-    "status": "狀態",
-    "type": "類型",
+    "status": "狀態：",
+    "type": "類型：",
     "assignee": "受託人：",
-    "group": "小組",
+    "group": "小組：",
     "values": {
       "status": {
         "new": "新建",

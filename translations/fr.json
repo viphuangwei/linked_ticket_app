@@ -60,12 +60,12 @@
     "loading": "Envoi..."
   },
   "ticket": {
-    "id": "ID",
+    "id": "ID :",
     "subject": "Sujet :",
-    "status": "Statut",
-    "type": "Type",
+    "status": "Statut :",
+    "type": "Type :",
     "assignee": "Assigné :",
-    "group": "Groupe",
+    "group": "Groupe :",
     "values": {
       "status": {
         "new": "Nouveau",

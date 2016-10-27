@@ -60,12 +60,12 @@
     "loading": "Odesílání..."
   },
   "ticket": {
-    "id": "ID",
+    "id": "ID:",
     "subject": "Předmět:",
-    "status": "Stav",
-    "type": "Typ",
+    "status": "Stav:",
+    "type": "Typ:",
     "assignee": "Pověřený agent:",
-    "group": "Skupina",
+    "group": "Skupina:",
     "values": {
       "status": {
         "new": "Nový",

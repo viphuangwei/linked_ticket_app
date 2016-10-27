@@ -60,12 +60,12 @@
     "loading": "Отправка..."
   },
   "ticket": {
-    "id": "ID",
+    "id": "ID:",
     "subject": "Тема:",
-    "status": "Статус",
-    "type": "Тип",
+    "status": "Статус:",
+    "type": "Тип:",
     "assignee": "Исполнитель:",
-    "group": "Группа",
+    "group": "Группа:",
     "values": {
       "status": {
         "new": "Новый",

@@ -13,8 +13,8 @@
       }
     }
   },
-  "ajax_failure": "发生错误。请尝试重新加载 app。",
-  "ancestry_field_missing": "<strong>已链接工单 App：</strong> 您遵循设置说明来设置自定义字段了吗？",
+  "ajax_failure": "发生错误。请尝试重新加载应用。",
+  "ancestry_field_missing": "<strong>已链接工单应用：</strong> 您遵循设置说明来设置自定义字段了吗？",
   "has_parent": "此工单有一张父工单。",
   "has_child": "此工单有一张子工单。",
   "form": {
@@ -60,12 +60,12 @@
     "loading": "正在提交……"
   },
   "ticket": {
-    "id": "ID",
+    "id": "ID：",
     "subject": "标题：",
-    "status": "状态",
-    "type": "类型",
+    "status": "状态：",
+    "type": "类型：",
     "assignee": "受托人：",
-    "group": "组",
+    "group": "组：",
     "values": {
       "status": {
         "new": "新建",

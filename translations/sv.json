@@ -60,12 +60,12 @@
     "loading": "Skickar..."
   },
   "ticket": {
-    "id": "ID",
+    "id": "ID:",
     "subject": "Ämne:",
-    "status": "Status",
-    "type": "Typ",
+    "status": "Status:",
+    "type": "Typ:",
     "assignee": "Handläggare:",
-    "group": "Grupp",
+    "group": "Grupp:",
     "values": {
       "status": {
         "new": "Nytt",

@@ -37,13 +37,13 @@
       "label": "Osoba zlecająca:",
       "current_user": "ja",
       "ticket_requester": "osoba zlecająca zgłoszenie",
-      "custom": "inny"
+      "custom": "inna"
     },
     "assignee": {
       "label": "Opiekun:",
       "current_user": "ja",
       "ticket_assignee": "opiekun zgłoszenia",
-      "custom": "inny",
+      "custom": "inna",
       "group_label": "Grupa opiekuna",
       "name_label": "Nazwisko opiekuna"
     },
@@ -60,12 +60,12 @@
     "loading": "Wysyłanie..."
   },
   "ticket": {
-    "id": "IDENTYFIKATOR",
+    "id": "IDENTYFIKATOR:",
     "subject": "Temat:",
-    "status": "Status",
-    "type": "Typ",
+    "status": "Status:",
+    "type": "Typ:",
     "assignee": "Opiekun:",
-    "group": "Grupa",
+    "group": "Grupa:",
     "values": {
       "status": {
         "new": "Nowe",

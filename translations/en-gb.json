@@ -60,10 +60,10 @@
     "loading": "Submitting..."
   },
   "ticket": {
-    "id": "ID",
+    "id": "ID:",
     "subject": "Subject:",
-    "status": "Status",
-    "type": "Type",
+    "status": "Status:",
+    "type": "Type:",
     "assignee": "Assignee:",
     "group": "Group",
     "values": {

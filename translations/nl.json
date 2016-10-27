@@ -60,12 +60,12 @@
     "loading": "Verzenden..."
   },
   "ticket": {
-    "id": "Id",
+    "id": "Id:",
     "subject": "Onderwerp:",
-    "status": "Status",
-    "type": "Type",
+    "status": "Status:",
+    "type": "Type:",
     "assignee": "Medewerker:",
-    "group": "Groep",
+    "group": "Groep:",
     "values": {
       "status": {
         "new": "Nieuw",

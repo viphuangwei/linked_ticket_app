@@ -528,6 +528,7 @@
       } else if (type == 'ticket_requester' &&
                  this.ticket().requester().id()) {
         attributes.requester_id = this.ticket().requester().id();
+        attributes.submitter_id = this.currentUser().id();
       } else if (type == 'custom' &&
                  this.formRequesterEmail()){
         attributes.requester = {

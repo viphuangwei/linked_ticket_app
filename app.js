@@ -521,14 +521,15 @@
 
     serializeRequesterAttributes: function(){
       var type = this.formRequesterType();
-      var attributes  = {};
+      var attributes  = {
+        submitter_id: this.currentUser().id()
+      };
 
       if (type == 'current_user'){
         attributes.requester_id = this.currentUser().id();
       } else if (type == 'ticket_requester' &&
                  this.ticket().requester().id()) {
         attributes.requester_id = this.ticket().requester().id();
-        attributes.submitter_id = this.currentUser().id();
       } else if (type == 'custom' &&
                  this.formRequesterEmail()){
         attributes.requester = {

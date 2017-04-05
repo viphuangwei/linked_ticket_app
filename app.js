@@ -521,7 +521,9 @@
 
     serializeRequesterAttributes: function(){
       var type = this.formRequesterType();
-      var attributes  = {};
+      var attributes  = {
+        submitter_id: this.currentUser().id()
+      };
 
       if (type == 'current_user'){
         attributes.requester_id = this.currentUser().id();

@@ -1,12 +1,20 @@
 {
   "app": {
-    "description": {
-      "title": "This is the app description",
+    "name": {
+      "title": "Name for App: Linked Ticket",
+      "value": "Linked Ticket"
+    },
+    "short_description": {
+      "title": "Description for App: Linked Ticket",
       "value": "Create and link a ticket from an existing one"
     },
-    "name": {
-      "title": "This is the app name",
-      "value": "Linked Ticket"
+    "long_description": {
+      "title": "Long Description for App: Linked Ticket",
+      "value": "The Zendesk Support Linked Ticket app enables you to create a child ticket from an existing parent ticket and link the two tickets together. This is particularly useful when you need to have two separate conversations around the same issue.\n\nFor example, a customer reaches out to you about an issue and you need to loop in a third party to resolve the issue. With the Linked Ticket app, you can create a child ticket from the ticket your customer submitted to start a conversation with the third party. This way the third party will not have access to your customer's information but both tickets are linked in the agent's view.\n\nFor any questions, please email support@zendesk.com.\n\nBy enabling this app, You agree to the [Built by Zendesk Terms of Use](https://www.zendesk.com/company/built-by-zendesk-agmt/)."
+    },
+    "installation_instructions": {
+      "title": "Installation Instructions for App: Linked Ticket",
+      "value": "Before you install the App:\n\n* Log in to your Zendesk Support account.\n* Add a new ticket field—a text field called “Linked Data” and make a note of the custom field ID.\n* For Enterprise customers: Add that ticket field to every ticket form\n\nTo install the Linked Ticket app:\n\n1. Sign in to your Zendesk Support account, then click the Admin icon in the sidebar.\n2. Select Apps > Marketplace, then find the Linked Ticket app and click the tile. \n\n3. On the Linked Ticket app page, click Install app in the upper-right corner.\n4. Configure the app settings. “Reference Field” is the custom field ID for the text field called “Linked Data”. You have the option to apply a tag to all child tickets created by this app. This can be useful if you want to exclude any child tickets from any email notifications or reports. For example, you can set it to “child_ticket” and in the triggers, add the condition “tags does not contain child_ticket” so the trigger doesn’t run on linked tickets created by the app.\n5. Click Install to complete the setup, then refresh your browser.\""
     },
     "parameters": {
       "ancestry_field": {
@@ -153,7 +161,7 @@
   "ticket": {
     "id": {
       "title": "in the app once the ticket is created this is a form proving them with information on the other ticket child/parent real time state. this is for the ID of the other ticket",
-      "value": "ID"
+      "value": "ID:"
     },
     "subject": {
       "title": "in the app once the ticket is created this is a form proving them with information on the other ticket child/parent real time state. this is for the subject of the other ticket",
@@ -161,11 +169,11 @@
     },
     "status": {
       "title": "in the app once the ticket is created this is a form proving them with information on the other ticket child/parent real time state. this is for the status of the other ticket",
-      "value": "Status"
+      "value": "Status:"
     },
     "type": {
       "title": "in the app once the ticket is created this is a form proving them with information on the other ticket child/parent real time state. this is for the type of the other ticket",
-      "value": "Type"
+      "value": "Type:"
     },
     "assignee": {
       "title": "in the app once the ticket is created this is a form proving them with information on the other ticket child/parent real time state. this is for the assignee of the other ticket",
